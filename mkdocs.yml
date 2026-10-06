@@ -8,11 +8,11 @@ theme:
   name: material
   palette:
     scheme: slate
-    primary: deep purple
+    primary: custom
     accent: amber
   font:
     text: Inter
-    code: JetBrains Mono
+    code: Inter
   icon:
     logo: material/lightbulb-on-outline
   features:

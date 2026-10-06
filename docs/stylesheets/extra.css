@@ -4,3 +4,36 @@
 .md-typeset blockquote { border-left-color: var(--md-accent-fg-color); background: rgba(124, 77, 255, 0.07); color: var(--md-typeset-color); padding: 0.4em 1em; }
 .md-typeset table:not([class]) { font-size: 0.75rem; }
 .md-typeset .arithmatex { overflow-x: auto; }
+
+/* Pure black theme */
+[data-md-color-scheme="slate"] {
+  --md-default-bg-color: #000;
+  --md-default-bg-color--light: #000000b3;
+  --md-default-bg-color--lighter: #0000004d;
+  --md-default-bg-color--lightest: #0000001f;
+  --md-primary-fg-color: #000;
+  --md-primary-fg-color--light: #111;
+  --md-primary-fg-color--dark: #000;
+  --md-primary-bg-color: #fff;
+  --md-code-bg-color: #0d0d0d;
+  --md-footer-bg-color: #000;
+  --md-footer-bg-color--dark: #000;
+  --md-typeset-a-color: #b39dff;
+  --md-accent-fg-color: #ffc107;
+}
+.md-header, .md-tabs { background-color: #000; border-bottom: 1px solid #1f1f1f; }
+.md-footer, .md-footer-meta { background-color: #000; border-top: 1px solid #1f1f1f; }
+.md-typeset table:not([class]) { background-color: #000; }
+.md-typeset table:not([class]) th { background-color: #0d0d0d; }
+.md-typeset .admonition, .md-typeset details { background-color: #0a0a0a; }
+.md-search__form { background-color: #111; }
+
+/* Inter everywhere (except math symbols, which MathJax draws itself) */
+body, input, .md-typeset, .md-typeset h1, .md-typeset h2, .md-typeset h3, .md-typeset h4,
+.md-nav, .md-header, .md-tabs, .md-footer, .md-typeset code, .md-typeset pre, .md-typeset kbd {
+  font-family: "Inter", -apple-system, "Helvetica Neue", sans-serif;
+}
+.md-typeset h1, .md-typeset h2 { font-weight: 600; color: #fff; }
+.md-typeset h3, .md-typeset h4 { font-weight: 600; }
+.md-typeset .md-button { color: #ffc107; border-color: #ffc107; background: transparent; }
+.md-typeset .md-button:hover { color: #000; background-color: #ffc107; border-color: #ffc107; }
