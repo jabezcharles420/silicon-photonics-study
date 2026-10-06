@@ -1,5 +1,13 @@
 # Week 5
 
-Study days this week:
+<p class="lede">1 study day this week.</p>
 
-- [Mon 19 Oct · Ring resonators, ring modulators (§4.4, §6.3)](day-01-mon-19-oct-2026.md) · [PDF](day-01-mon-19-oct-2026.pdf)
+<div class="grid cards" markdown>
+
+-   <span class="day">Mon 19 Oct</span>
+
+    **[Ring resonators, ring modulators](day-01-mon-19-oct-2026.md)**
+
+    <span class="secs">§4.4, §6.3</span> · [:material-file-pdf-box: PDF](day-01-mon-19-oct-2026.pdf)
+
+</div>
