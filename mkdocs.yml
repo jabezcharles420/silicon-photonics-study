@@ -1,5 +1,5 @@
-site_name: Silicon Photonics — Plain-English Study Notes
-site_description: Week-by-week, first-principles study notes on Chrostowski & Hochberg, Silicon Photonics Design
+site_name: Silicon Photonics & Inverse Design — Plain-English Study Notes
+site_description: Day-by-day, first-principles study notes on Chrostowski & Hochberg, Taflove & Hagness (FDTD) and the inverse-design research papers
 repo_url: https://github.com/jabezcharles420/silicon-photonics-study
 repo_name: silicon-photonics-study
 edit_uri: edit/main/docs/
@@ -58,30 +58,60 @@ extra_css:
 
 nav:
   - Home: index.md
+  - Calendar: calendar.md
   - Week 1:
       - week-01/index.md
-      - "Mon 21 Sep · Waveguide design, slab modes (§3.2.1–3.2.4)": week-01/day-01-mon-21-sep-2026.md
-      - "Wed 23 Sep · Effective index method, bends (§3.2.5–3.2.6, §3.3)": week-01/day-03-wed-23-sep-2026.md
+      - "Mon 21 Sep · Waveguide design, slab modes (Chrostowski §3.2.1–3.2.4)": week-01/day-01-mon-21-sep-2026.md
+      - "Wed 23 Sep · Effective index method, bends (Chrostowski §3.2.5–3.2.6, §3.3)": week-01/day-03-wed-23-sep-2026.md
+      - "Thu 24 Sep · Maxwell's equations & the Yee algorithm (Taflove & Hagness Ch. 3)": week-01/day-04-thu-24-sep-2026-taflove-ch3.md
+      - "Thu 24 Sep · Numerical dispersion & stability (Courant) (Taflove & Hagness Ch. 4)": week-01/day-04-thu-24-sep-2026-taflove-ch4.md
   - Week 2:
       - week-02/index.md
-      - "Mon 28 Sep · Directional couplers (§4.1.1–4.1.3)": week-02/day-01-mon-28-sep-2026.md
-      - "Wed 30 Sep · Mach–Zehnder, dispersion, compact models (§4.3, §3.2.9–3.2.10)": week-02/day-03-wed-30-sep-2026.md
+      - "Mon 28 Sep · Directional couplers (Chrostowski §4.1.1–4.1.3)": week-02/day-01-mon-28-sep-2026.md
+      - "Tue 29 Sep · Coupled-mode theory (Yariv 1973)": week-02/day-02-tue-29-sep-2026-yariv-1973.md
+      - "Wed 30 Sep · Mach–Zehnder, dispersion, compact models (Chrostowski §4.3, §3.2.9–3.2.10)": week-02/day-03-wed-30-sep-2026.md
+      - "Fri 2 Oct · MMI couplers & self-imaging (Soldano & Pennings 1995)": week-02/day-05-fri-2-oct-2026-soldano-1995.md
+      - "Sat 3 Oct · Silicon microring resonators (Bogaerts et al. 2012)": week-02/day-06-sat-3-oct-2026-bogaerts-2012.md
   - Week 3:
       - week-03/index.md
-      - "Mon 5 Oct · Y-branch (§4.2)": week-03/day-01-mon-5-oct-2026.md
-      - "Tue 6 Oct · Fabrication variation, waveguide loss (§11.1, §3.2.11)": week-03/day-02-tue-6-oct-2026.md
-      - "Wed 7 Oct · Active tuning, thermo-optic switch (§6.5–6.6, §3.1.1)": week-03/day-03-wed-7-oct-2026.md
-      - "Thu 8 Oct · Plasma dispersion, pn-junction phase shifters (§6.1–6.2)": week-03/day-04-thu-8-oct-2026.md
+      - "Mon 5 Oct · Y-branch (Chrostowski §4.2)": week-03/day-01-mon-5-oct-2026.md
+      - "Tue 6 Oct · Fabrication variation, waveguide loss (Chrostowski §11.1, §3.2.11)": week-03/day-02-tue-6-oct-2026.md
+      - "Wed 7 Oct · Active tuning, thermo-optic switch (Chrostowski §6.5–6.6, §3.1.1)": week-03/day-03-wed-7-oct-2026.md
+      - "Thu 8 Oct · Plasma dispersion, pn-junction phase shifters (Chrostowski §6.1–6.2)": week-03/day-04-thu-8-oct-2026.md
+      - "Sat 10 Oct · Inverse design in nanophotonics (review) (Molesky et al. 2018)": week-03/day-06-sat-10-oct-2026-molesky-2018.md
   - Week 4:
       - week-04/index.md
-      - "Wed 14 Oct · Grating couplers (§5.2)": week-04/day-03-wed-14-oct-2026.md
+      - "Mon 12 Oct · Adjoint shape optimisation (Lalau-Keraly et al. 2013)": week-04/day-01-mon-12-oct-2026-lalau-keraly-2013.md
+      - "Tue 13 Oct · Designing devices with neural networks (Hammond & Camacho 2019)": week-04/day-02-tue-13-oct-2026-hammond-2019.md
+      - "Tue 13 Oct · Meep's hybrid time/frequency adjoint solver (Hammond et al. 2022)": week-04/day-02-tue-13-oct-2026-hammond-2022.md
+      - "Wed 14 Oct · Grating couplers (Chrostowski §5.2)": week-04/day-03-wed-14-oct-2026.md
   - Week 5:
       - week-05/index.md
-      - "Mon 19 Oct · Ring resonators, ring modulators (§4.4, §6.3)": week-05/day-01-mon-19-oct-2026.md
+      - "Mon 19 Oct · Ring resonators, ring modulators (Chrostowski §4.4, §6.3)": week-05/day-01-mon-19-oct-2026.md
+      - "Wed 21 Oct · Forward-mode differentiation of Maxwell's equations (ceviche) (Hughes et al. 2019)": week-05/day-03-wed-21-oct-2026-hughes-2018.md
   - Week 6:
       - week-06/index.md
-      - "Mon 26 Oct · Tapers & adiabaticity (§4.2, §5.3.1)": week-06/day-01-mon-26-oct-2026.md
+      - "Mon 26 Oct · Tapers & adiabaticity (Chrostowski §4.2, §5.3.1)": week-06/day-01-mon-26-oct-2026.md
   - Week 7:
       - week-07/index.md
-      - "Mon 2 Nov · Grating coupler theory (§5.2.2)": week-07/day-01-mon-2-nov-2026.md
-      - "Tue 3 Nov · PDK & mask layout (§10.1–10.2)": week-07/day-02-tue-3-nov-2026.md
+      - "Mon 2 Nov · Grating coupler theory (Chrostowski §5.2.2)": week-07/day-01-mon-2-nov-2026.md
+      - "Tue 3 Nov · PDK & mask layout (Chrostowski §10.1–10.2)": week-07/day-02-tue-3-nov-2026.md
+  - Week 9:
+      - week-09/index.md
+  - Week 10:
+      - week-10/index.md
+      - "Mon 23 Nov · Inverse-designed WDM demultiplexer (Piggott et al. 2015)": week-10/day-01-mon-23-nov-2026-piggott-2015.md
+      - "Mon 23 Nov · Fabrication-constrained inverse design (Piggott et al. 2017)": week-10/day-01-mon-23-nov-2026-piggott-2017.md
+      - "Tue 24 Nov · Inverse design with strict foundry constraints (Schubert et al. 2022)": week-10/day-02-tue-24-nov-2026-schubert-2022.md
+      - "Tue 24 Nov · Analytical level-set fabrication constraints (Vercruysse et al. 2019)": week-10/day-02-tue-24-nov-2026-vercruysse-2019.md
+      - "Wed 25 Nov · Objective-first nanophotonic design (Lu & Vučković 2013)": week-10/day-03-wed-25-nov-2026-lu-vuckovic-2013.md
+      - "Wed 25 Nov · SPINS-B software architecture (Su et al. 2020)": week-10/day-03-wed-25-nov-2026-su-2020.md
+      - "Thu 26 Nov · Topology optimisation with foundry design rules (Hammond et al. 2021)": week-10/day-04-thu-26-nov-2026-hammond-2021.md
+  - Week 21:
+      - week-21/index.md
+  - Week 25:
+      - week-25/index.md
+  - Week 31:
+      - week-31/index.md
+      - "Mon 19 Apr · Deep neural networks for photonic design (Jiang, Chen & Fan 2021)": week-31/day-01-mon-19-apr-2027-jiang-2021.md
+      - "Tue 20 Apr · Mapping the global design space with ML (Melati et al. 2019)": week-31/day-02-tue-20-apr-2027-melati-2019.md
